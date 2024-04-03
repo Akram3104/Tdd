@@ -18,9 +18,6 @@ def fahrenheit_to_kelvin(fahrenheit):
     """Convert Fahrenheit to Kelvin."""
     return celsius_to_kelvin(fahrenheit_to_celsius(fahrenheit))
 
-def kelvin_to_fahrenheit(kelvin):
-    """Convert Kelvin to Fahrenheit."""
-    return celsius_to_fahrenheit(kelvin_to_celsius(kelvin))
 
 def main():
     print("Temperature Converter")
